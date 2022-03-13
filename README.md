@@ -8,77 +8,83 @@
 Zaydwahab/Zaydwahab is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-#!usr/bin/python
-#Facebook Cracker Version 2 can crack into Facebook Database 100% without Interruption By
-Facebook Firewall !
-#This program is for educational purposes only.
-#Don't attack people facebook accounts it's illegal !
-#If you want to crack into someone's account, you must have the permission of the user.
-#InfosecHacker is not responsible.
-import sys
-import random
-import mechanize
-import cookielib
-GHT = '''
-+=========================================+
-|..........Facebook Cracker v 2...........|
-+-----------------------------------------+
-|#Author: InfoSecHacker |
-|#Contact: www.twitter.com/abhishekmani002|
-|#Date: 23/10/2015 |
-|#This tool is made for pentesting. |
-|#Changing the Description of this tool |
-|Won't made you the coder ^_^ !!! |
-|#Respect Coderz ^_^ |
-|#I take no responsibilities for the |
-| use of this program ! |
-+=========================================+
-|..........Facebook Cracker v 2...........|
-+-----------------------------------------+
-'''
-print "Note: - This tool can crack facebook account even if you don't have the email of your
-victim"
-print "# Hit CTRL+C to quit the program"
-print "# Use www.graph.facebook.com for more infos about your victim ^_^"
-email = str(raw_input("# Enter |Email| |Phone number| |Profile ID number| |Username| : "))
-passwordlist = str(raw_input("Enter the name of the password list file : "))
-useragents = [('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1)
-Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1')]
-br.set_handle_equiv(True)
-br.set_handle_referer(True)
-br.set_handle_redirect(True)
-br.set_cookiejar(cj)
-br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
-except KeyboardInterrupt:
-print "\n[*] Exiting program ..\n"
-sys.exit(1)
-try:
-list = open(passwordlist, "r")
-passwords = list.readlines()
-k = 0
-while k < len(passwords):
-passwords[k] = passwords[k].strip()
-k += 1
-except IOError:
-print "\n [*] Error: check your password list path \n"
-sys.exit(1)
-except KeyboardInterrupt:
-print "\n [*] Exiting program ..\n"
-sys.exit(1)
-try:
-print GHT
-print " [*] Account to crack : %s" % (email)
-print " [*] Loaded :" , len(passwords), "passwords"
-print " [*] Cracking, please wait ..."
-except KeyboardInterrupt:
-print "\n [*] Exiting program ..\n"
-sys.exit(1)
-try:
-search()
-attack(password)
-except KeyboardInterrupt:
-print "\n [*] Exiting program ..\n"
-sys.exit(1)
-if __name__ == '__main__':
-    check()
-   
+#python 3.7.1
+
+print("....................................................")
+print(" START HACKING FACEBOOK ACCOUNT")
+print("....................................................")
+print("")
+print("Enter a phone Number where You")
+print("will receive the password?")
+name=input("type:")
+print("")
+import time
+time.sleep(1)
+print("hacker typing....")
+time.sleep(4)
+print(">> You will receive text on " +name)
+print("")
+print("Enter: facekook username to be hacked ")
+names=input(" type:")
+print("")
+print(">>Are you sure you want to hack " + names)
+print("Facebook account ? yes/no")
+q1_ans=input("type:")
+if q1_ans=="yes" or ans=="Yes":
+    print("Hacking in process....")
+ 
+print("10%")
+time.sleep(2)
+print("15%")
+time.sleep(0)
+print("24%")
+time.sleep(1)
+print("54%")
+time.sleep(1)
+print("61%")
+print("Hacking almost complete...")
+print("")
+print("Locating " +names +(" Facebook account......"))
+print("")
+time.sleep(2)
+print("account for " +names +(" Now locked") ) 
+print("1%")
+time.sleep(2)
+print("13%")
+time.sleep(0)
+print("21%")
+time.sleep(1)
+print("32%")
+time.sleep(3)
+print("54%")
+time.sleep(1)
+print("63%")
+time.sleep(0)
+print("71%")
+time.sleep(1)
+print("84%")
+time.sleep(1)
+print("88%")
+time.sleep(2)
+print("90%")
+time.sleep(0)
+print("93%")
+time.sleep(1)
+print("99%")
+time.sleep(4)
+print("100%")
+print("")
+print("Hacking successfully done")
+time.sleep(3)
+print("Sending a Password to " +name +("...."))
+time.sleep(0)
+print("53%")
+time.sleep(1)
+print("99%")
+time.sleep(4)
+print("100%")
+print("")
+time.sleep(2)
+print("We have sent a message to " +names )
+print("that " +name +(" was trying to"))
+print("hack your Facebook account")  
